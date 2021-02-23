@@ -1,0 +1,171 @@
+/*La Nav-bar*/
+.navLien{
+	font-weight: bold;
+	color: #FFF !important;
+	text-decoration-line: none;
+}
+
+#ligneTexte{
+	padding-left: 21%;
+}
+.collapse{
+	padding-left: 32%;
+    padding-right: 21%;
+}
+#connect{
+	color: #FFF;
+	background-color: #ed008c;
+	border-radius: 30px;
+	padding-right: 4%;
+    padding-left: 4%;
+    width: 176px;
+    height: 48px;
+}
+#connect: hover {
+	color: #000;
+	background-color: #FFF;
+}
+.dropdown-menu{
+	color: #50636a;
+}
+.nav-link{
+	color: #b1a1a2!important;
+}
+#navBack{
+	background-color: #1a2d34;
+	padding-right: 21%;
+}
+#navbarScroll{
+	padding-right: 5%;
+    padding-left: 41%;
+}
+
+/* premiere partie */
+#stepImage{
+	padding-top: 24%;
+}
+#boutonImage{
+    padding-left: 48%;
+}
+#texteImage{
+	padding-left: 48%;
+    color: #FFF;
+}
+#titreImage{
+	padding-left: 48%;
+    padding-top: 23%;
+    color: #FFF;
+}
+#main-images{
+	background-image: url(ressources/argh.png);
+	background-size: cover;
+    height: 693px;
+}
+#bImage{
+	padding-bottom: 5%;
+    padding-top: 5%;
+    border-radius: 40px;
+    background-color: #ed008c;
+    color: #FFF;
+    width: 161px;
+}
+/*texte images*/
+.imgText {
+    padding-top: 6%;
+}
+#un{
+	float: right;
+}
+#deux {
+
+    padding-left: 8%;
+}
+#trois{
+	 float: left;
+}
+.imgTitre{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+/*CSS mobile*/
+@media (max-width : 800px){
+	/*La Nav-bar*/
+   	#navBack{
+   		width: 581px; 
+   	}
+   	#changeColor{
+   		background-image: url(ressources/trait-3.png)!important;
+   	}
+   	#placeBouton{
+   		position: absolute;
+    	left: 492px;
+   	}
+   	#connect{
+   		padding-left: 3px;
+    	font-size: 12px;
+    	padding-right: 2px;
+   	}
+   	.d-flex{
+   		position: absolute;
+   		right: 17%;
+    	top: 3px;
+    	width: 18%;
+   	}
+   	#ligneTexte {
+    	padding-left: 13%;
+	}
+	/* premiere partie */
+	#main-images{
+		height: 717px;
+    	width: 581px;
+    	background-image: url(ressources/argh2.png);
+	}
+	#titreImage {
+    	padding-left: 9%;
+    	padding-top: 4%;
+	}
+	#titreImage .titre1{
+    	font-size: 40px;
+    	float: left;
+    	padding-left: 10px;
+	}
+	#titreImage .titre2{
+		font-size: 40px;
+    	padding-left: 257px;
+    	padding-top: 1px;
+	}
+	#titreImage .titre3{
+		padding-left: 158px;
+    	font-size: 40px;
+	}
+	#texteImage{
+		padding-left: 95px;
+	}
+	#boutonImage {
+    	padding-left: 31%;
+	}
+	#stepImage {
+    	padding-top: 2%;
+    	padding-left: 47px;
+	}
+	.steImg{
+		width: 460px;
+	}
+	/*texte images*/
+	.responT{
+		width: 581px;
+	}
+	#un {
+    	padding-left: 109px;
+    	float: none;
+	}
+	#deux {
+    	padding-left: 20%;
+	}
+	#trois {
+    	padding-left: 110px;
+	}
+
+}
