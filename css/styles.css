@@ -1,0 +1,147 @@
+.bouton {
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #F90F7A;
+    color: white;
+}
+
+
+/* #redirection*/
+
+#redirection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F8F9FD;
+}
+
+#redirection .boutonlink {
+    font-weight: bold;
+    background-color: #F90F7A;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#redirection .redirectionText {
+    text-align: center;
+}
+
+#redirection .redirectionLink {
+    text-align: center;
+    padding: 20px;
+}
+
+#redirection .subti {
+    float: right;
+    margin-left: 54%;
+    margin-top: -30%;
+}
+
+#redirection .subti h2 {
+    text-align: initial;
+    width: 54%;
+}
+
+#redirection .subti p {
+    text-align: initial;
+    width: 77%;
+}
+
+#redirection .subti-inv {
+    float: right;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+#redirection .subti-inv h2 {
+    text-align: initial;
+    width: 34%;
+}
+
+#redirection .subti-inv p {
+    text-align: initial;
+    width: 46%;
+}
+
+#redirection .inv {
+    margin-left: 33%;
+    margin-top: -26%;
+}
+
+#redirection .card1 {
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#redirection .card1 img {
+    width: 12%;
+    margin-top: 2%;
+    margin-right: 77%;
+}
+
+#redirection .card1 p {
+    margin-left: 20%;
+    margin-top: -12%;
+    text-align: initial;
+    width: 74%;
+}
+
+#redirection .card2 {
+    width: 32%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 0.25%;
+    text-align: center;
+}
+
+#redirection .card2 img {
+    width: 12%;
+    margin-top: 2%;
+    margin-right: 77%;
+}
+
+#redirection .card2 p {
+    margin-left: 20%;
+    margin-top: -10%;
+    text-align: initial;
+    width: 74%;
+}
+
+#redirection .card3 {
+    width: 32%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 0.25%;
+    text-align: center;
+}
+
+#redirection .card3 img {
+    width: 12%;
+    margin-top: 2%;
+    margin-right: 77%;
+}
+
+#redirection .card3 p {
+    margin-left: 20%;
+    margin-top: -10%;
+    text-align: initial;
+    width: 74%;
+}
+
+
+/* Section Play */
+
+#play {
+    height: 600px;
+    background-color: #1A2D34;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2play {
+    margin-left: 15px;
+}
