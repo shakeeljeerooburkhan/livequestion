@@ -1,3 +1,21 @@
+/*General*/
+
+h3{
+    padding: 25px; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+body{
+    /*text-align: center;*/
+    font-size:20px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
 .bouton {
     border-radius: 50px;
     padding-left: 15px;
@@ -5,6 +23,189 @@
     background-color: #F90F7A;
     color: white;
 }
+
+/*La Nav-bar*/
+.navLien{
+    font-weight: bold;
+    color: #FFF !important;
+    text-decoration-line: none;
+}
+
+#ligneTexte{
+    padding-left: 21%;
+}
+.collapse{
+    padding-left: 32%;
+    padding-right: 21%;
+}
+#connect{
+    color: #FFF;
+    background-color: #ed008c;
+    border-radius: 30px;
+    padding-right: 4%;
+    padding-left: 4%;
+    width: 176px;
+    height: 48px;
+}
+#connect: hover {
+    color: #000;
+    background-color: #FFF;
+}
+.dropdown-menu{
+    color: #50636a;
+}
+.nav-link{
+    color: #b1a1a2!important;
+}
+#navBack{
+    background-color: #1a2d34;
+    padding-right: 21%;
+}
+#navbarScroll{
+    padding-right: 5%;
+    padding-left: 41%;
+}
+
+/* premiere partie */
+#stepImage{
+    padding-top: 24%;
+}
+#boutonImage{
+    padding-left: 48%;
+}
+#texteImage{
+    padding-left: 48%;
+    color: #FFF;
+}
+#titreImage{
+    padding-left: 48%;
+    padding-top: 23%;
+    color: #FFF;
+}
+#main-images{
+    background-image: url(../images/argh.png);
+    background-size: cover;
+    height: 796px;
+}
+#bImage{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-radius: 40px;
+    background-color: #ed008c;
+    color: #FFF;
+    width: 161px;
+}
+/*texte images*/
+.imgText {
+    padding-top: 6%;
+}
+#un{
+    float: right;
+}
+#deux {
+
+    padding-left: 8%;
+}
+#trois{
+     float: left;
+}
+.imgTitre{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*connexion*/
+.pink{
+    color: pink;
+}
+#pad{
+    padding-top: 16%;
+}
+#pad1{
+    padding-top: 3%;
+}
+
+/*CSS mobile*/
+@media (max-width : 800px){
+    /*La Nav-bar*/
+    #navBack{
+        width: 581px; 
+    }
+    #changeColor{
+        background-image: url(../images/trait-3.png)!important;
+    }
+    #placeBouton{
+        position: absolute;
+        left: 492px;
+    }
+    #connect{
+        padding-left: 3px;
+        font-size: 12px;
+        padding-right: 2px;
+    }
+    .d-flex{
+        position: absolute;
+        right: 17%;
+        top: 3px;
+        width: 18%;
+    }
+    #ligneTexte {
+        padding-left: 13%;
+    }
+    /* premiere partie */
+    #main-images{
+        height: 824px;
+        width: 581px;
+        background-image: url(../images/argh2.png);
+    }
+    #titreImage {
+        padding-left: 9%;
+        padding-top: 4%;
+    }
+    #titreImage .titre1{
+        font-size: 40px;
+        float: left;
+        padding-left: 10px;
+    }
+    #titreImage .titre2{
+        font-size: 40px;
+        padding-left: 257px;
+        padding-top: 1px;
+    }
+    #titreImage .titre3{
+        padding-left: 158px;
+        font-size: 40px;
+    }
+    #texteImage{
+        padding-left: 95px;
+    }
+    #boutonImage {
+        padding-left: 31%;
+    }
+    #stepImage {
+        padding-top: 2%;
+        padding-left: 47px;
+    }
+    .steImg{
+        width: 460px;
+    }
+    /*texte images*/
+    .responT{
+        width: 581px;
+    }
+    #un {
+        padding-left: 109px;
+        float: none;
+    }
+    #deux {
+        padding-left: 20%;
+    }
+    #trois {
+        padding-left: 110px;
+    }
+
+}
+
 
 
 /* #redirection*/
@@ -128,7 +329,6 @@
     width: 74%;
 }
 
-
 /* Section Play */
 
 #play {
@@ -144,4 +344,104 @@
 
 .h2play {
     margin-left: 15px;
+}
+
+
+
+/*Affichage du texte des 3 dernières parties*/
+#applications, #questions, .courb-blue, #footer {
+    text-align: center;
+}
+
+/*Partie des 7 boutons avec fond rose*/
+
+#applications{
+    background: #E0357F;
+    color: #ffffff;
+    width: 100%;
+    height: 400px;
+    border-bottom-left-radius: 30% 50px;
+    border-bottom-right-radius: 30% 50px;
+}
+
+.marques{
+    padding-top: 25px;
+}
+
+.marques  a{
+    background-color: #ffffff;
+}
+
+.surlignement{
+    background-color:#FF0080;
+    background: linear-gradient(#E0357F 30%,#FF0080 50%);
+}
+
+/*Partie FAQ avec les questions*/
+
+#questions{
+    background: #fff;
+    width: 100%;
+    height: 450px;
+    border-bottom-left-radius: 50% 150px;
+    border-bottom-right-radius: 50% 150px;  
+}
+
+.list-deroul-6{
+    padding-top: 15px;
+}
+
+.list-deroul-6 button {
+    width: 50%;
+}
+
+.demande-question{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.demande-question .txt-demande-question{
+    background-color: #F8F8F8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    border: 3px white solid;
+}
+
+.pink{
+    color: #E0357F;
+}
+
+.courb-blue {
+    background-color: #072840;
+    height: 200px;
+}
+
+.courb-white {
+    background-color: white;
+    height: 150px;
+    border-bottom-left-radius: 30% 50px;
+    border-bottom-right-radius: 30% 50px;
+}
+
+
+/*Footer*/
+
+#footer{
+    background: #072840;
+    color: #ffffff;
+    height: 250px;
+    color:rgb(211,211,211);
+}
+
+.white-divider{
+    width: 61%;
+    height: 1px;
+    background: #ffffff;
+    margin:  0 auto;
+}
+
+.contenu-footer{
+    width: auto;
+    padding-top: 100px;
 }
