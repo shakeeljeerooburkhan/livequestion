@@ -1,0 +1,80 @@
+#connected{
+	color: #FFF;
+	background-color: #ed008c;
+	border-radius: 30px;
+	padding-right: 4%;
+    padding-left: 4%;
+    width: 194px;
+    height: 48px;
+}
+#connected: hover {
+	color: #000;
+	background-color: #FFF;
+}
+#back{
+	height: 724px;
+    background-color: black;
+}
+#pose{
+	padding: 149px 609px 6px 499px;
+	
+}
+#pose2{
+	height: 458px;
+    background-color: white;
+}
+.colorMind{
+	padding: 60px 0px 0px 0px;
+}
+#pad2{
+	float: right;
+    padding-top: 0px;
+}
+#pad{
+	float: left;
+    padding-top: 0px;
+}
+.pink{
+	color: pink;
+}
+#pose3{
+	padding-left: 122px;
+}
+#pad1{
+	padding-top: 282px;
+    padding-left: 6px;
+}
+@media (max-width : 800px){
+	#back{
+		height: 724px;
+    	background-color: black;
+	}
+	#pose{
+		padding: 117px 0 6px 0px;
+	}
+	#pose2{
+		height: 458px;
+    	background-color: white;
+	}
+	.colorMind{
+		padding: 60px 0px 0px 0px;
+	}
+	#pad2{
+		left: 209px;
+    	position: absolute;;
+	}
+	#pad{
+		left: 0px;
+    	position: absolute;
+	}
+	.pink{
+		color: pink;
+	}
+	#pose3{
+		padding-left: 122px;
+	}
+	#pad1{
+		padding-top: 282px;
+    	padding-left: 0px;
+	}
+}
