@@ -28,6 +28,7 @@ Enfin je me suis chargé du formulaire de connexion et d'inscription.
 
 Je me suis chargé de la partie utilisateurs avec les pages des utilisateurs.
 
+je me suis occuper des pages de connexion inscription.
 
 
 Enfin pour la page de base c'est à dire la page d'accueil a été séparé avec les membres du groupe.
